@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/border_bottom"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/noti_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[NGHỈ HỌC] SE347.O11.11 (Công nghệ Web và ứng dụng)"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/noti_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noti_tv1"
+            android:text="2024-03-12 08:40:26"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/noti_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noti_tv2"
+            android:layout_marginTop="8dp"
+            android:text="Trường ĐHCNTT thông báo đến sinh viên lịch học môn Công nghệ Web và ứng dụng (SE347.O11.1) vào thứ 5 ngày 21 tháng 03 năm 2024, tiết 5,6,7,8, Phòng C214."
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/noti_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noti_tv3"
+            android:layout_marginTop="8dp"
+            android:text="Trường ĐHCNTT thông báo đến sinh viên lịch học môn Công nghệ Web và ứng dụng (SE347.O11.1) vào thứ 5 ngày 21 tháng 03 năm 2024, tiết 5,6,7,8, Phòng C214."
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

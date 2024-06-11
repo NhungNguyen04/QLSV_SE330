@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tkb">
+
+    <fragment
+        android:id="@+id/nav_tkb"
+        android:name="com.example.qlsv.ui.TKB.TKBFragment"
+        android:label="TKB"
+        tools:layout="@layout/fragment_tkb" />
+    <fragment android:id="@+id/nav_test"
+        android:name="com.example.qlsv.ui.Test.TestFragment"
+        android:label="Lịch thi"
+        tools:layout="@layout/fragment_test"/>
+    <fragment android:id="@+id/nav_score"
+        android:name="com.example.qlsv.ui.Score.ScoreFragment"
+        android:label="Điểm"
+        tools:layout="@layout/fragment_score"/>
+    <fragment android:id="@+id/nav_deadline"
+        android:name="com.example.qlsv.ui.Deadline.DeadlineFragment"
+        android:label="Deadline"
+        tools:layout="@layout/fragment_deadline"/>
+    <fragment android:id="@+id/nav_self"
+        android:name="com.example.qlsv.ui.Self.SelfFragment"
+        android:label="Cá nhân"
+        tools:layout="@layout/fragment_self"/>
+    <fragment android:id="@+id/nav_note"
+        android:name="com.example.qlsv.ui.Note.NoteFragment"
+        android:label="Ghi chú"
+        tools:layout="@layout/fragment_note"/>
+    <fragment android:id="@+id/nav_noti"
+        android:name="com.example.qlsv.ui.Noti.NotiFragment"
+        android:label="Thông báo"
+        tools:layout="@layout/fragment_noti"/>
+
+</navigation>

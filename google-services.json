@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "223935630050",
+    "firebase_url": "https://qlsv-c2802-default-rtdb.firebaseio.com",
+    "project_id": "qlsv-c2802",
+    "storage_bucket": "qlsv-c2802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223935630050:android:0e2b533a5a6104d7416cbb",
+        "android_client_info": {
+          "package_name": "com.example.qlsv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEX5XyofIDuh1Jhec-ZtFd9HGyg1rCRXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

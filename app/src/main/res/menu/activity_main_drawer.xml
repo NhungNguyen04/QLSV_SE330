@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_tkb"
+            android:icon="@drawable/ic_tkb"
+            android:title="TKB"/>
+        <item android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="Lịch thi"/>
+        <item android:id="@+id/nav_score"
+            android:icon="@drawable/ic_score"
+            android:title="Điểm"/>
+        <item android:id="@+id/nav_deadline"
+            android:icon="@drawable/ic_deadline"
+            android:title="Deadline"/>
+        <item android:title="Ghi chú"
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_note"/>
+        <item android:title="Thông báo"
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/ic_noti"/>
+        <item android:id="@+id/nav_self"
+            android:icon="@drawable/ic_user"
+            android:title="Cá nhân"/>
+    </group>
+</menu>
